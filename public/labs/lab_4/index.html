@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE-edge">
+      <title> Gagandeep Samra's Lab 4</title>
+      <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header class='lab'>
+        <h1>Gagandeep Samra's Lab 4</h1>
+
+        <form action="/api" method="POST">
+            <ul class="flex-outer">
+            <li>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name">
+            </li>
+            <li>
+                <label for="first-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name">
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+            </li>
+            <li>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone">
+
+            </li>
+
+            <li>
+                <label for="message">Message</label>
+                <textarea rows="6" placeholder="Enter your message here"></textarea>
+            </li>
+            <li>
+                <p>Age</p>
+                <ul class="flex-inner">
+                    <li>
+                      <input type="checkbox" id="eighteen-to-thirtyfive">
+                      <label for="eighteen-to-thirtyfive">18-35</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="thirtyfive-to-fifty">
+                      <label for="thirtyfive-to-fift">35-50</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="fifty-to-sixtyfive">
+                      <label for="fifty-to-sixtyfive">50-65</label>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <button type="submit">Submit</button>
+                </li>
+              </ul>
+            </li>
+        
+        </form>
+        
+        <script src="script.js"></script>
+ </body>
+ </html>     
