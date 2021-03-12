@@ -21,7 +21,6 @@
 //   // htmlvalidate.install(on);
 // }
 
-// N.B./TODO: cypress will declare a major file error if this is not initialized in cypress.json
 const htmlvalidate = require('cypress-html-validate/dist/plugin');
 
 const htmlValidateConfig = {
